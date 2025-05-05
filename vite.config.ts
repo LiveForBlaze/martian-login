@@ -4,6 +4,7 @@ import path from "path";
 
 export default defineConfig({
   plugins: [react()],
+  base: "/martian-login/",
   resolve: {
     alias: {
       "@utils": path.resolve(__dirname, "src/utils"),
