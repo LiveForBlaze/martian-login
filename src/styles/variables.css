@@ -1,0 +1,18 @@
+:root {
+  /* Brand */
+  --color-primary: #ff8558;
+  --color-primary-hover: #ff6e3d;
+
+  /* Backgrounds */
+  --color-background-primary: #f1f1f1;
+  --color-background-error: #ffeceb;
+  --color-background-disabled: #f9f9f9;
+
+  /* Text */
+  --color-text-primary: #444444;
+  --color-text-disabled: #aaaaaa;
+  --color-text-error: #e65346;
+
+  /* Icons */
+  --color-icon-primary: #999999;
+}

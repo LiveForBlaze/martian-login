@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "target": "ES6",
+    "module": "ESNext",
+    "lib": ["DOM", "ESNext"],
+    "jsx": "react-jsx",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "strict": true,
+    "skipLibCheck": true,
+    "types": ["jest", "@testing-library/jest-dom"],
+    "paths": {
+      "@utils/*": ["utils/*"],
+      "@components/*": ["components/*"],
+      "@components": ["components/index.ts"],
+      "@features/*": ["features/*"],
+      "@styles/*": ["styles/*"]
+    }
+  },
+  "include": ["src", "jest.setup.ts", "src/custom.d.ts", "src/testing.d.ts"]
+}

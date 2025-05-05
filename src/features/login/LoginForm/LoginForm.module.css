@@ -1,0 +1,42 @@
+@import "@styles/variables.css";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.login-container {
+  width: 100%;
+  max-width: 20rem;
+  padding: 1.5rem;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+  color: var(--color-primary);
+}
+
+h2 {
+  margin: 0 0 20px 0;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.form-error {
+  margin-top: 0.5rem;
+  min-height: 20px;
+
+  font-size: 0.8rem;
+  color: var(--color-text-error);
+  text-align: left;
+}
+
+.success-message {
+  padding: 20px;
+  text-align: center;
+}
+
+.success-message h2 {
+  margin-bottom: 10px;
+  color: #4caf50;
+}
